@@ -10,13 +10,13 @@ class Person:
             self.higher_education = True
     def introduce(self):
         if self.profession == " " and self.higher_education == True:
-            return f"Меня зовут {self.name}, я родилась {self.birth_date}, по профессии {self.profession}, высшее образование есть"
+            return f"Меня зовут {self.name}, я родился {self.birth_date}, по профессии {self.profession}, высшее образование есть"
         elif self.profession != " " and self.higher_education == True:
-            return  f"Меня зовут {self.name}, я родилась {self.birth_date}, по профессии {self.profession}, высшее образование есть"
+            return  f"Меня зовут {self.name}, я родился {self.birth_date}, по профессии {self.profession}, высшее образование есть"
         elif self.profession != " " and self.higher_education == False:
-            return f"меня зовут {self.name}, я родилась {self.birth_date}, по профессии {self.profession}, высшего образования нет"
+            return f"меня зовут {self.name}, я родился {self.birth_date}, по профессии {self.profession}, высшего образования нет"
         else:
-            return f"Меня зовут {self.name}, я родилась {self.birth_date}, профессии нет, высшего образования нет"
+            return f"Меня зовут {self.name}, я родился {self.birth_date}, профессии нет, высшего образования нет"
 
 
 Person_1 = Person("Ратмир", "19.01.2009", "да", "лингвист")
